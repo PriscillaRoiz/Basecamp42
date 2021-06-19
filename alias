@@ -1,0 +1,13 @@
+alias test='norminette -R CheckForbiddenSourceHeader && gcc -Wall -Wextra -Werror *.c && ./a.out'
+alias lint='norminette -R CheckForbiddenSourceHeader'
+alias comp='gcc -Wall -Wextra -Werror *.c'
+alias run='./a.out'
+
+cat > .gitignore
+
+ctrl+d
+
+git status --ignored
+
+git ls-files
+
